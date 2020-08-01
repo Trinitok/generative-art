@@ -70,7 +70,7 @@ def main():
     max_size = 70
     last_color = sun_color
 
-    for x in xrange(1, 20):
+    for x in range(1, 20):
         next_size = random.randint(min_size, max_size)
         next_center = last_center - last_size - (next_size * 2) - distance_between_planets
 
